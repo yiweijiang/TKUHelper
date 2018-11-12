@@ -1,5 +1,7 @@
 # TKUHelper
-A ChatBot help Tamkang University's students in the Line 
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image1.png" width="25%" height="25%"> <img src="https://github.com/yiweijiang/TKUHelper/blob/master/image2.jpeg" width="25%" height="25%">
+
+A ChatBot help Tamkang University's students in the Line
 ### 研發動機：
 雖然學校已經有一個APP「淡江I生活」，但在使用上仍然不是那麼方便，像是沒有辦法快速知道下堂課的資訊，或是查詢公車時限制很多等，於是我們想到使用Line這個即時通訊軟體，製作一個淡江學生專屬的Line bot ，可以在上課前主動提醒學生課程資訊，以及公車的即時查詢，並增加一些學生可能使用的功能。
 ### (一)、伺服器
@@ -7,9 +9,9 @@ A ChatBot help Tamkang University's students in the Line
 ### (二)、程式
 在前端使用者界面部分，利用Line所提供的API，我們可以根據不同的情景設定不同的操作方式，呈現給使用者不同視覺效果。
 在後端部分，我們先在Line developers設定webhooks URL為放程式碼的Heroku網址，讓機器人可以接受到訊息，再根據接受到的訊息去逐步處理需要達到甚麼樣的動作、回覆，爬取資料我們使用requests，方法分為Get以及Post，中央氣象局、新北市政府公車動態資訊系統網站、蘋果新聞皆使用Get的方式獲取資料，而登入學校網頁爬取課程資料因為需要夾帶帳號密碼，所以使用Post方式把資料送出去，爬取完的資料都使用**Python**的Beautifulsoup模組處理，並擷取我們要的部分，資料庫是使用前面提到Heroku提供的**Postgresql**存放資料。
-### 功能描述:
+## 功能描述:
 ### (1)	登入
-登入自己的帳號，需填寫學號、密碼、驗證碼。
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image3.png" width="25%" height="25%">  登入自己的帳號，需填寫學號、密碼、驗證碼。
 ### (2)	課程查詢
 登入以後即可使用，可以查詢自己的所有課程，有課程名稱、授課教授、座號、上課時間、教室，也可以查詢今天的課。
 ### (3)	課程提醒
