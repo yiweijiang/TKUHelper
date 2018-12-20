@@ -39,3 +39,6 @@ A ChatBot help Tamkang University's students in the Line
 學生可以把上課重點或是日常事情記錄下來，並可以記錄時間，並可以自行調整時間進行提醒。<br>
 <img src="https://github.com/yiweijiang/TKUHelper/blob/master/image12.png" width="25%" height="25%">
 <img src="https://github.com/yiweijiang/TKUHelper/blob/master/image13.png" width="25%" height="25%">
+
+測試<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/TKU小幫手(QR).png" width="25%" height="25%">
