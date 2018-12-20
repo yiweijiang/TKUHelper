@@ -11,18 +11,31 @@ A ChatBot help Tamkang University's students in the Line
 在後端部分，我們先在Line developers設定webhooks URL為放程式碼的Heroku網址，讓機器人可以接受到訊息，再根據接受到的訊息去逐步處理需要達到甚麼樣的動作、回覆，爬取資料我們使用requests，方法分為Get以及Post，中央氣象局、新北市政府公車動態資訊系統網站、蘋果新聞皆使用Get的方式獲取資料，而登入學校網頁爬取課程資料因為需要夾帶帳號密碼，所以使用Post方式把資料送出去，爬取完的資料都使用**Python**的Beautifulsoup模組處理，並擷取我們要的部分，資料庫是使用前面提到Heroku提供的**Postgresql**存放資料。
 ## 功能描述:
 ### (1)	登入
-<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image3.png" width="25%" height="25%">  登入自己的帳號，需填寫學號、密碼、驗證碼。
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image3.png" width="25%" height="25%">  <br><br>
+登入自己的帳號，需填寫學號、密碼、驗證碼。
 ### (2)	課程查詢
 登入以後即可使用，可以查詢自己的所有課程，有課程名稱、授課教授、座號、上課時間、教室，也可以查詢今天的課。
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image3.png" width="25%" height="25%">
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image4.png" width="25%" height="25%">  <br><br>
 ### (3)	課程提醒
-登入以後，將自動於上課前20分鐘提醒上課，提醒內容包含課程名稱、授課教授、座號、上課時間、教室，如不需要此功能也可以關閉。
+登入以後，將自動於上課前20分鐘提醒上課，提醒內容包含課程名稱、授課教授、座號、上課時間、教室，如不需要此功能也可以關閉。<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image5.jpeg" width="25%" height="25%">  <br><br>
 ### (4)	公車查詢
-針對淡江學生經常搭乘的公車進行即時的查詢。
+針對淡江學生經常搭乘的公車進行即時的查詢。<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image6.png" width="25%" height="25%">
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image7.png" width="25%" height="25%">  <br><br>
 ### (5)	淡水天氣
-針對淡水天氣進行查詢，內容包含溫度、體感溫度、濕度、降雨機率、天氣狀況、觀測地點、觀測時間。
+針對淡水天氣進行查詢，內容包含溫度、體感溫度、濕度、降雨機率、天氣狀況、觀測地點、觀測時間。<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image8.jpeg" width="25%" height="25%">  <br><br>
 ### (6)	新聞
-可收看近期最新的新聞，如果要看先前的新聞可以點選上一頁進行觀看。
+可收看近期最新的新聞，如果要看先前的新聞可以點選上一頁進行觀看。<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image10.png" width="25%" height="25%">
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image11.jpeg" width="25%" height="25%">
+<br><br>
 ### (7)	活動報名系統
-即時查詢學校最近的活動。
+即時查詢學校最近的活動。<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image3.png" width="25%" height="25%">  <br><br>
 ### (8)	記事本
-學生可以把上課重點或是日常事情記錄下來，並可以記錄時間，並可以自行調整時間進行提醒。
+學生可以把上課重點或是日常事情記錄下來，並可以記錄時間，並可以自行調整時間進行提醒。<br>
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image12.png" width="25%" height="25%">
+<img src="https://github.com/yiweijiang/TKUHelper/blob/master/image13.png" width="25%" height="25%">
