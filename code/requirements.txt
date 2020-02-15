@@ -1,6 +1,6 @@
 alembic==0.8.9
 click==6.7            
-Flask==0.12           
+Flask==1.0          
 Flask-Assets==0.12    
 Flask-Babel==0.11.1
 Flask-Script==2.0.5
@@ -14,17 +14,15 @@ MarkupSafe==0.23
 oauth2==1.9.0.post1
 pycparser==2.14       
 python-editor==1.0.3  
-requests==2.12.4
+requests==2.20.0
 webassets==0.12.0
-Werkzeug==0.11.15     
+Werkzeug==0.15.3     
 gunicorn==19.6.0
 beautifulsoup4==4.5.3
 line-bot-sdk==1.5.0
 imgurpython==1.1.7
 elasticsearch==1.6.0
 psycopg2-binary==2.7.4
-#psycopg2==2.7.3.2
-
 pillow==7.0.0
 
 scipy==0.19.1
