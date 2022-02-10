@@ -8,7 +8,7 @@ Flask_Sqlalchemy==2.0
 Flask_Migrate==2.1.1
 httplib2==0.19.0       
 itsdangerous==0.24    
-Jinja2==2.10.1     
+Jinja2==2.11.3     
 Mako==1.0.6           
 MarkupSafe==0.23      
 oauth2==1.9.0.post1
